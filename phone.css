@@ -1,0 +1,22 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#navbar::before {
+    /* flex-direction: column; */
+    height: 100px;
+}
+
+/*Style jumbotron*/
+.jumbotron {
+    flex-direction: column;
+    height: 50px;
+    padding-left: 20px;
+}
